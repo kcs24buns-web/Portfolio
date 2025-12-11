@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unish Aryal - Portfolio</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Devicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="style.css">n
+  
+
+</head>
+
+<body>
+
+  <!-- Hamburger Icon -->
+  <button class="hamburger" onclick="document.getElementById('sidebar').classList.toggle('active')">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-content text-center">
+      <a href="#home" class="name text-decoration-none d-block mb-2">
+        <h2>Unish Aryal</h2>
+      </a>
+      <img src="unisharyal.jpg" alt="Profile" class="profile-img">
+      <p class="text-center mb-4">Hi, I am Unish Aryal and I am a<br>web-developer. Welcome to my Website.</p>
+
+      <nav class="nav flex-column mb-4">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skill" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn hire-me-btn w-100 mb-4 d-flex align-items-center justify-content-center gap-2">
+        <i class="fa-solid fa-paper-plane"></i>Hire Me
+      </a>
+
+      <div class="social-icons d-flex justify-content-center gap-4">
+        <a href="https://github.com/kcs24buns-web" target="_blank">
+          <i class="devicon-github-original-wordmark"></i>
+        </a>
+        <a href="#" target="_blank"><i class="devicon-facebook-plain"></i></a>
+        <a href="#" target="_blank"><i class="devicon-twitter-original"></i></a>
+        <a href="#" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    
+    <!-- About Section -->
+    <section id="home" class="mb-5">
+      <div class="row align-items-center">
+        <div class="col-lg-7 mb-4 mb-lg-0">
+          <h2 class="display-5 fw-bold text-white">Unish Aryal</h2>
+          <h4 class="fs-4 mb-3">CyberSecurity</h4>
+          <p class="lead">
+            Hi, I'm learning cybersecurity and I enjoy understanding how systems work behind the scenes and how to protect them. I'm especially interested in web application security and how different attacks like SQL injection, XSS, and CSRF happen. I like exploring how hackers think, and I enjoy practicing how to secure websites, fix vulnerabilities, and keep user data safe. I'm always learning new tools and techniques to improve my skills every day.
+          </p>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="profile-picture">
+            <img src="unisharyal.jpg" alt="Profile" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Details -->
+    <section id="about" class="mb-5">
+      <h2 class="display-6 fw-bold text-white mb-4">About me</h2>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <h4 class="fw-normal fs-5">Name: Unish Aryal</h4>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h4 class="fw-normal fs-5">Date of birth: July 19, 2004</h4>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h4 class="fw-normal fs-5">Address: New Baneshwor, Kathmandu, Nepal</h4>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h4 class="fw-normal fs-5">Zip code: 44600</h4>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h4 class="fw-normal fs-5">Email: unisharyal09@gmail.com</h4>
+        </div>
+        <div class="col-md-6 mb-3">
+          <h4 class="fw-normal fs-5">Phone: 9845011876</h4>
+        </div>
+      </div>
+      <a href="#" target="_blank" class="download-cv-btn mt-3">Download CV</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skill" class="mb-5 pt-5">
+      <h2 class="display-6 fw-bold text-white mb-4">Skills</h2>
+      <div class="row g-4">
+        
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="35" alt="JavaScript">
+            <h3 class="h5 mt-2">JavaScript</h3>
+            <p>I have a solid grasp of JavaScript, using it to build dynamic web pages with DOM, events, and APIs. I enjoy problem-solving and actively build projects to grow my skills.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="35" alt="C">
+            <h3 class="h5 mt-2">C</h3>
+            <p>I have a strong foundation in C programming, focusing on problem-solving, data structures, and memory management. I enjoy building logic-driven programs and continuously practice to strengthen my coding skills.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="35" alt="PHP">
+            <h3 class="h5 mt-2">PHP</h3>
+            <p>I have hands-on experience with PHP for server-side development. I use it to create dynamic web pages, handle form data, and interact with MySQL databases in real-world projects.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="35" alt="Python">
+            <h3 class="h5 mt-2">Python</h3>
+            <p>I have a solid understanding of Python and use it for scripting, automation, and problem-solving. I'm comfortable with data structures, file handling, and building basic applications and tools.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="35" alt="HTML5">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="35" alt="CSS3" class="ms-2">
+            <h3 class="h5 mt-2">HTML5 & CSS</h3>
+            <p>I have strong knowledge of HTML and CSS, allowing me to build clean, responsive, and well-structured web pages. I focus on user-friendly design, layout, and cross-browser compatibility.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="35" alt="C#">
+            <h3 class="h5 mt-2">C#</h3>
+            <p>I have a good understanding of C# and use it to build basic desktop applications and work with object-oriented programming concepts. I'm exploring Windows Forms and .NET for real-world development.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" width="35" alt="SQL">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="35" alt="MySQL" class="ms-2">
+            <h3 class="h5 mt-2">SQL & MySQL</h3>
+            <p>I have solid knowledge of SQL and MySQL, using them to design databases, write efficient queries, manage data, and perform CRUD operations for web and software applications.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" width="37" alt="Java">
+            <h3 class="h5 mt-2">Java</h3>
+            <p>I have a good grasp of Java and object-oriented programming. I use it to build basic applications, implement data structures, and develop logic-based solutions for real-world problems.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="mb-5">
+      <h2 class="display-6 fw-bold text-white mb-4">Education</h2>
+      
+      <div class="mb-4">
+        <h3 class="h5 text-white">2022-2025</h3>
+        <h3 class="h5 text-white">CyberSecurity and Digital Forensic</h3>
+        <h4 class="h6">Ismt College</h4>
+        <h4 class="h6">Sunderland University</h4>
+      </div>
+      <hr class="opacity-25" style="width:50%;">
+
+      <div class="mb-4">
+        <h3 class="h5 text-white">2020-2022</h3>
+        <h3 class="h5 text-white">+2 - Computer Science</h3>
+        <h4 class="h6">KMC College</h4>
+        <h4 class="h6">National Examinations Board (NEB)</h4>
+      </div>
+      <hr class="opacity-25" style="width:50%;">
+
+      <div class="mb-4">
+        <h3 class="h5 text-white">2010-2020</h3>
+        <h4 class="h6">V.S Nietan School</h4>
+        <h4 class="h6">National Examinations Board (NEB)</h4>
+      </div>
+      <hr class="opacity-25" style="width:50%;">
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mb-5">
+      <h2 class="display-6 fw-bold text-white mb-4">Contact me</h2>
+      
+      <div class="contact-wrapper p-4">
+        <div class="row g-4">
+          
+          <div class="col-lg-6">
+            <div class="row g-3">
+              
+              <div class="col-sm-6">
+                <div class="contact-card">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <h4 class="h6 mt-2">Address</h4>
+                  <h5 class="small">Santinagar, Kathmandu</h5>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="contact-card">
+                  <i class="fa-solid fa-phone"></i>
+                  <h4 class="h6 mt-2">Phone</h4>
+                  <h5 class="small">+977 9845011876</h5>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="contact-card">
+                  <i class="fa-solid fa-envelope"></i>
+                  <h4 class="h6 mt-2">Email</h4>
+                  <h5 class="small">unisharyal09@gmail.com</h5>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="contact-card">
+                  <i class="fa-solid fa-globe"></i>
+                  <h4 class="h6 mt-2">Website</h4>
+                  <h5 class="small">unisharyal.com.np</h5>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="contact-form-wrapper">
+              <h3 class="text-center mb-4">Contact Me</h3>
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="d13d8076-2368-4c54-a29c-891e219f5528">
+                
+                <div class="mb-3">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+                
+                <div class="mb-3">
+                  <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                
+                <div class="mb-3">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject">
+                </div>
+                
+                <div class="mb-3">
+                  <textarea name="message" class="form-control" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-submit w-100">Send Message</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row g-4">
+          
+          <div class="col-lg-4">
+            <h2>Unish Aryal</h2>
+            <p class="mb-3">Passionate Web Developer creating beautiful, responsive, and functional websites.</p>
+            <div class="footer-socials">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="h5">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#home">Home</a></li>
+              <li class="mb-2"><a href="#about">About Me</a></li>
+              <li class="mb-2"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="h5">Contact</h3>
+            <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i>Kathmandu, Nepal</p>
+            <p class="mb-2"><i class="fas fa-phone-alt me-2"></i>+977 9845011876</p>
+            <p class="mb-2"><i class="fas fa-envelope me-2"></i>unisharyal09@gmail.com</p>
+          </div>
+
+        </div>
+
+        <div class="text-center border-top border-secondary mt-4 pt-3">
+          <p class="small text-muted mb-0">&copy; 2025 Unish Aryal. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="scipt.js">
+    
+  </script>
+  
+</body>
+</html>
